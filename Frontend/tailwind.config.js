@@ -11,7 +11,7 @@ export default {
                 textColor1: '#3a3a3a',
                 textColor2: '#575757',
                 background: '#e2e2e2',
-                redColor: '#be1f2d',
+                redColor: '#e31223',
             },
         },
     },

@@ -29,11 +29,13 @@ const responsive = {
 
 function HomePage() {
     return (
-        <div className="container mx-auto px-40 pt-6">
+        <div className="container mx-auto">
             <Slider />
 
-            <h1 className="mt-6 text-xl font-semibold text-textColor1">DANH MỤC NỔI BẬT</h1>
-            <Category />
+            <h1 className="mb-6 mt-12 border-l-4 border-primary pl-3 text-xl font-semibold text-textColor1">
+                DANH MỤC NỔI BẬT
+            </h1>
+            <Category className="" />
 
             <h1 className="mt-12 border-l-4 border-primary pl-3 pt-[2px] text-xl font-semibold text-textColor1">
                 PC THEO NHU CẦU
