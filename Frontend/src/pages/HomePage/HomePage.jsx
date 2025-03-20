@@ -1,5 +1,6 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import { Link } from 'react-router-dom';
 
 import Slider from '../../components/Slider/Slider';
 import Category from './Category';
@@ -37,9 +38,14 @@ function HomePage() {
             </h1>
             <Category className="" />
 
-            <h1 className="mt-12 border-l-4 border-primary pl-3 pt-[2px] text-xl font-semibold text-textColor1">
-                PC THEO NHU CẦU
-            </h1>
+            <div className="mt-12 flex items-center justify-between">
+                <h1 className="block border-l-4 border-primary pl-3 pt-[2px] text-xl font-semibold text-textColor1">
+                    PC THEO NHU CẦU
+                </h1>
+                <Link to={'/list-product/pc'} className="block border px-2 py-1">
+                    Xem tất cả
+                </Link>
+            </div>
             <Carousel responsive={responsive} className="mt-6 py-2">
                 {Array.from({ length: 6 }).map((_, index) => (
                     <ItemCard
@@ -57,9 +63,14 @@ function HomePage() {
                 ))}
             </Carousel>
 
-            <h1 className="mt-12 border-l-4 border-primary pl-3 pt-[2px] text-xl font-semibold text-textColor1">
-                CPU - Bộ vi xử lý
-            </h1>
+            <div className="mt-12 flex items-center justify-between">
+                <h1 className="border-l-4 border-primary pl-3 pt-[2px] text-xl font-semibold text-textColor1">
+                    CPU - BỘ VI XỬ LÝ
+                </h1>
+                <Link to={'/list-product/cpu'} className="border px-2 py-1">
+                    Xem tất cả
+                </Link>
+            </div>
             <Carousel responsive={responsive} className="mt-6 py-2">
                 {Array.from({ length: 6 }).map((_, index) => (
                     <ItemCard
@@ -77,9 +88,14 @@ function HomePage() {
                 ))}
             </Carousel>
 
-            <h1 className="mt-12 border-l-4 border-primary pl-3 pt-[2px] text-xl font-semibold text-textColor1">
-                VGA - Card Màn Hình
-            </h1>
+            <div className="mt-12 flex items-center justify-between">
+                <h1 className="border-l-4 border-primary pl-3 pt-[2px] text-xl font-semibold text-textColor1">
+                    VGA - CARD MÀN HÌNH
+                </h1>
+                <Link to={'/list-product/vga'} className="border px-2 py-1">
+                    Xem tất cả
+                </Link>
+            </div>
             <Carousel responsive={responsive} className="mt-6 py-2">
                 {Array.from({ length: 6 }).map((_, index) => (
                     <ItemCard

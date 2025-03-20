@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import { Button } from 'antd';
 import tailwindcssAnimated from 'tailwindcss-animated';
 
 export default {

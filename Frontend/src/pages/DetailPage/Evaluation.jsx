@@ -64,8 +64,8 @@ function Evaluation() {
                 </div>
 
                 <div className="my-6 justify-items-center">
-                    <p className="mb-4">Bạn đánh giá sao về sản phầm này</p>
-                    <button className="rounded-lg bg-primary px-4 py-2 text-white">Đánh giá ngay</button>
+                    <p className="mb-4 font-semibold">Bạn đánh giá sao về sản phầm này</p>
+                    <button className="btn rounded-full">Đánh giá ngay</button>
                 </div>
             </div>
 

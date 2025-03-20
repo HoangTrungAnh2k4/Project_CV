@@ -3,6 +3,7 @@ import RegisterPage from '../pages/RegisterPage/RegisterPage';
 import HomePage from '../pages/HomePage/HomePage';
 import DetailPage from '../pages/DetailPage/DetailPage';
 import CheckoutPage from '../pages/CheckoutPage/CheckoutPage';
+import ListProductFlowType from '../pages/ListProductFlowType/ListProductFlowType';
 
 const routes = [
     {
@@ -24,6 +25,10 @@ const routes = [
     {
         component: CheckoutPage,
         path: '/checkout',
+    },
+    {
+        component: ListProductFlowType,
+        path: '/list-product/:id',
     },
 ];
 

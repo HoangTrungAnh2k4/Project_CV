@@ -12,7 +12,7 @@ function QandA() {
                     type="text"
                     placeholder="Xin mời để lại câu hỏi, chúng tôi sẽ trả lời ngay trong 1h, các câu hỏi ngoài 8h-22h chúng tôi sẽ trời lời vào sáng hôm sau"
                 ></textarea>
-                <button className="flex h-fit items-center gap-2 rounded-lg bg-primary px-4 py-3 pr-5 font-semibold text-white">
+                <button className="btn flex h-fit items-center gap-2 rounded-xl">
                     <TbSend className="text-2xl" />
                     <span>Gửi</span>
                 </button>

@@ -62,7 +62,7 @@ function Cart() {
                 </div>
                 <a
                     href="/checkout"
-                    className="mt-4 block w-full rounded-lg bg-primary py-2 text-center font-semibold text-white"
+                    className="mt-4 block w-full rounded-lg bg-primary py-2 text-center font-semibold text-white transition-all duration-200 hover:scale-95"
                 >
                     Thanh toán
                 </a>
